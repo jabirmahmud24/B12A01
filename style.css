@@ -1,0 +1,63 @@
+/* Raleway Font CSS Link */
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Inter Font CSS Link */
+
+.inter-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared Style */
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 12px;
+    border: none;
+}
+/* Header Styles */
+.header{
+    
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    
+    
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.header-sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.header-title{
+    justify-content: space-between;
+}
