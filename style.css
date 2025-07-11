@@ -22,6 +22,14 @@
     padding: 12px 36px;
     border-radius: 12px;
     border: none;
+    transition: 0.9s;
+    
+}
+.btn-primary:hover{
+    color:black;
+    background-color: darkorange;
+    transform: scale(1.1);
+    
 }
 /* 38 size Raleway text */
 .text-title38{
@@ -53,8 +61,13 @@
 .nav{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 8%;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-shrink: 0;
     
 }
 
@@ -63,17 +76,29 @@
     font-weight: bold;
     color: #4E47FF;
 }
+.nav a{
+    text-decoration: none;
+}
 .header-sec1{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+ 
+}
+.header-text{
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+    line-height: 1.2;
+    margin-bottom: 30px;
 }
 .header-title{
     font-size: 65px;
     font-weight: bold;
-}
-.header-title{
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -90,5 +115,5 @@
 }
 .main-sec2-img{
     border-radius: 12%;
-    width: 90%;
+    width: 70%;
 }
